@@ -26,11 +26,11 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                            InlineKeyboardButton("♥️ 𝐉𝐨𝐢𝐧 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ♥️", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -75,10 +75,10 @@ async def filter(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1",callback_data="pages")]
             )
             if BUTTON:
-                buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+                buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
             poster=None
             if API_KEY:
                 poster=await get_poster(search)
@@ -93,13 +93,13 @@ async def filter(client, message):
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="𝗡𝗲𝘅𝘁 ➡️",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
+            [InlineKeyboardButton(text=f"🌹 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         if BUTTON:
-            buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+            buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
         poster=None
         if API_KEY:
             poster=await get_poster(search)
@@ -143,10 +143,10 @@ async def group(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1",callback_data="pages")]
             )
             if BUTTON:
-                buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+                buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
             poster=None
             if API_KEY:
                 poster=await get_poster(search)
@@ -160,13 +160,13 @@ async def group(client, message):
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="𝗡𝗲𝘅𝘁 ➡️",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
+            [InlineKeyboardButton(text=f"🌹 𝗣𝗮𝗴𝗲 1/{data['total']}",callback_data="pages")]
         )
         if BUTTON:
-            buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+            buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
         poster=None
         if API_KEY:
             poster=await get_poster(search)
@@ -215,13 +215,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {int(index)+2}/{data['total']}", callback_data="pages")]
                 )
                 if BUTTON:
-                    buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+                    buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -231,13 +231,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {int(index)+2}/{data['total']}", callback_data="pages")]
                 )
                 if BUTTON:
-                    buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+                    buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -257,13 +257,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {int(index)}/{data['total']}", callback_data="pages")]
                 )
                 if BUTTON:
-                    buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+                    buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -273,13 +273,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {int(index)}/{data['total']}", callback_data="pages")]
                 )
                 if BUTTON:
-                    buttons.append([InlineKeyboardButton(text="Close ❌",callback_data="close")])
+                    buttons.append([InlineKeyboardButton(text="🔐 𝗖𝗹𝗼𝘀𝗲 🔐",callback_data="close")])
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝', url='https://t.me/Movies_World02'),
+                    InlineKeyboardButton('𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Minnal_Murali2021HD')
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="𝐎𝐖𝐍𝐄𝐑 : <a href='https://t.me/BKC0001'>𝐀𝐚𝐝𝐡𝐢</a>\n𝐆𝐑𝐎𝐔𝐏 : <a href='https://t.me/Movies_World02'>𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝', url='https://t.me/Movies_World02'),
+                        InlineKeyboardButton('𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Minnal_Murali2021HD')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝', url='https://t.me/Movies_World02'),
+                        InlineKeyboardButton('𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Minnal_Murali2021HD')
                     ]
                     ]
                 
