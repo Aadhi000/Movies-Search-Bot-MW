@@ -1,4 +1,4 @@
-# Modified Version Of [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# Modified New Bor [Movie Search bot](https://t.me/Search010Bot)
 
 ## Added Features
 * Imdb posters for autofilter.
@@ -84,9 +84,9 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
+Contact Me On [Telegram](https://t.me/BKC0001)
 
-[Update Channel](https://t.me/subin_works)
+[Update Channel](https://t.me/Minnal_Murali2021HD)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
