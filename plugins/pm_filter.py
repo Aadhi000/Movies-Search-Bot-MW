@@ -288,8 +288,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝', url='https://t.me/Movies_World02'),
-                    InlineKeyboardButton('𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Minnal_Murali2021HD')
+                    InlineKeyboardButton('⚡ 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝 ⚡', url='https://t.me/MoviesWorld_Group'),
+                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/Minnal_Murali2021HD')
                 ]
                 ]
             await query.message.edit(text="𝐎𝐖𝐍𝐄𝐑 : <a href='https://t.me/BKC0001'>𝐀𝐚𝐝𝐡𝐢</a>\n𝐆𝐑𝐎𝐔𝐏 : <a href='https://t.me/Movies_World02'>𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝', url='https://t.me/Movies_World02'),
-                        InlineKeyboardButton('𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Minnal_Murali2021HD')
+                        InlineKeyboardButton('⚡ 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝 ⚡', url='https://t.me/MoviesWorld_Group'),
+                        InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/Minnal_Murali2021HD')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝', url='https://t.me/Movies_World02'),
-                        InlineKeyboardButton('𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Minnal_Murali2021HD')
+                        InlineKeyboardButton('⚡ 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝 ⚡', url='https://t.me/MoviesWorld_Group'),
+                        InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/Minnal_Murali2021HD')
                     ]
                     ]
                 
