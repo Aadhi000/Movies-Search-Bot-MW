@@ -1,4 +1,4 @@
-# Modified New Bor [Movie Search bot](https://t.me/Search010Bot)
+#[Movie Search bot](https://t.me/Search010Bot)
 
 ## Added Features
 * Imdb posters for autofilter.
