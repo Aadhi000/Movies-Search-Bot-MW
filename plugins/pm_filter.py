@@ -287,12 +287,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
         elif query.data == "about":
             buttons = [
-                [
-                    InlineKeyboardButton('⚡ 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝 ⚡', url='https://t.me/MoviesWorld_Group'),
-                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/Minnal_Murali2021HD')
+                [                
+                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
                 ]
                 ]
-            await query.message.edit(text="✮ 𝐎𝐖𝐍𝐄𝐑 ›› <a href='https://t.me/BKC0001'>𝐀𝐚𝐝𝐡𝐢</a>\n✮ 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 ›› <a href='https://t.me/MoviesWorld_Group'>𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="✮ 𝐎𝐖𝐍𝐄𝐑 ›› <a href='https://t.me/Aadhi00100'>𝐀𝐚𝐝𝐡𝐢</a>\n, reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -312,11 +311,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('⚡ 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝 ⚡', url='https://t.me/MoviesWorld_Group'),
-                        InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/Minnal_Murali2021HD')
-                    ]
-                    ]
+                [                
+                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                ]
+                ]
                 
                 await query.answer()
                 await client.send_cached_media(
@@ -344,11 +342,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{title}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('⚡ 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝 ⚡', url='https://t.me/MoviesWorld_Group'),
-                        InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/Minnal_Murali2021HD')
-                    ]
-                    ]
+                [                
+                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                ]
+                ]
                 
                 await query.answer()
                 await client.send_cached_media(
