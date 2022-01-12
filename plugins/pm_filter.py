@@ -291,7 +291,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
                 ]
                 ]
-            await query.message.edit(text="✮ 𝐎𝐖𝐍𝐄𝐑 ›› <a href='https://t.me/Aadhi00100'>𝐀𝐚𝐝𝐡𝐢</a>\n, reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="✮ 𝐎𝐖𝐍𝐄𝐑 ›› <a href='https://t.me/Aadhi00100'>𝐀𝐚𝐝𝐡𝐢</a> reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
