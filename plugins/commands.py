@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♻️ 𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧 ♻️', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('♥️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♥️', url='https://t.me/Minnal_Murali2021HD')
+                        InlineKeyboardButton('♻️ SΞARCH HΞRΞ ♻️', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -82,11 +82,11 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Updates Channel To Use This Bot..🙂!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♥️ 𝐉𝐨𝐢𝐧 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ♥️", url=invite_link.invite_link)
+                        InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -99,11 +99,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ 𝐒𝐞𝐚𝐫𝐜𝐡 𝐇𝐞𝐫𝐞 ♻️", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("♥️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♥️", url="https://t.me/Minnal_Murali2021HD")
+                        InlineKeyboardButton("♥️ CHAИИΞL ♥️", url="https://t.me/+veUIdIW2CQ5mOGU5"),
+                        InlineKeyboardButton("⚡ ΛBOUT ⚡", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("⚡ 𝐀𝐛𝐨𝐮𝐭 ⚡", callback_data="about")
+                        InlineKeyboardButton("♻️ SΞARCH HΞRΞ ♻️", switch_inline_query_current_chat='')
                     ]
                 ]
             )
@@ -143,7 +143,7 @@ async def channel_info(bot, message):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
+    msg = await message.reply("Hacking....🙈", quote=True)
     try:
         total = await Media.count_documents()
         await msg.edit(f'📁 Saved files: {total}')
@@ -166,7 +166,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("Hacking....🙈", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('♥️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♥️', url='https://t.me/Minnal_Murali2021HD'),
-            InlineKeyboardButton('𝐎𝐖𝐍𝐄𝐑', url='https://t.me/BKC0001')
+            InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5'),
+            InlineKeyboardButton('💞 OWNΞR 💞', url='https://t.me/Aadhi011')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
