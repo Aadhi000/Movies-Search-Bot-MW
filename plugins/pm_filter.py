@@ -288,7 +288,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [                
-                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5'),
+                    InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start')
                 ]
                 ]
             await query.message.edit(text="✮ ᎧWИΞᏒ ›› <a href='https://t.me/Aadhi011'>ꪖꪖᦔꫝỉ</a>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -310,7 +311,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                 [                
-                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5'),
+                    InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start')
                 ]
                 ]
                 
@@ -341,7 +343,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                 [                
-                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5'),
+                    InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start')
                 ]
                 ]
                 
