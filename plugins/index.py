@@ -30,7 +30,7 @@ async def index_files(bot, message):
                 await last_msg.reply_text(f"This Is An Invalid Message, Either the channel is private and bot is not an admin in the forwarded chat, or you forwarded message as copy.\nError caused Due to <code>{e}</code>")
                 continue
 
-        msg = await message.reply('Processing...⏳')
+        msg = await message.reply('𝐇𝐚𝐜𝐤𝐢𝐧𝐠 𝐀𝐥𝐥...🙈')
         total_files = 0
         async with lock:
             try:
