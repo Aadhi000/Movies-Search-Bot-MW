@@ -288,10 +288,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [                
-                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5')
                 ]
                 ]
-            await query.message.edit(text="✮ 𝐎𝐖𝐍𝐄𝐑 ›› <a href='https://t.me/Aadhi00100'>𝐀𝐚𝐝𝐡𝐢</a>\n✮ 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 ›› <a href='https://t.me/+EqhXLhL3T1w4Zjc1'>𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="✮ ᎧWИΞᏒ ›› <a href='https://t.me/Aadhi011'>ꪖꪖᦔꫝỉ</a>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data.startswith("subinps"):
             ident, file_id = query.data.split("#")
@@ -310,7 +310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                 [                
-                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5')
                 ]
                 ]
                 
@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                 [                
-                    InlineKeyboardButton('💞 𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💞', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                    InlineKeyboardButton('𝙼𝚆 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+veUIdIW2CQ5mOGU5')
                 ]
                 ]
                 
@@ -364,4 +364,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.message.delete()
                 
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("𝙽𝙾𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄 𝙱𝚄𝙳𝙳𝚈",show_alert=True)
