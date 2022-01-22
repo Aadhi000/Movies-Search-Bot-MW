@@ -195,4 +195,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5')          
         ]
         ]
-    await message.reply(text="┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a>\n┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>𝙰𝙰𝙳𝙷𝙸 a>\n┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a>\n┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› <b>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a>\n┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>𝙰𝙰𝙳𝙷𝙸 </a>\n┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a>\n┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› <b>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
