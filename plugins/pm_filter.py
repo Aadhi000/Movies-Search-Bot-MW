@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("♥️ 𝐉𝐨𝐢𝐧 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ♥️", url=invite_link.invite_link)
+                            InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)
                         ]
                     ]
                 ),
