@@ -31,10 +31,10 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("♥️ 𝐉𝐨𝐢𝐧 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ♥️", url=invite_link.invite_link)
+                                InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("♻️ 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ♻️", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("♻️ ϮᏒY ΛGΛIИ ♻️", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -192,8 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5'),
-            InlineKeyboardButton('💞 OWNΞR 💞', url='https://t.me/Aadhi011')
+            InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5')          
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a>\n┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>𝙰𝙰𝙳𝙷𝙸 a>\n┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a>\n┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› <b>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
