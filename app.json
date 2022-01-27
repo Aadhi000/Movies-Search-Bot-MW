@@ -1,6 +1,7 @@
 {
     "name": "Media Search bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "logo": "https://telegra.ph/file/e899ae4f31ca58928cabb.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -14,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/subinps/Media-Search-bot",
-    "repository": "https://github.com/subinps/Media-Search-bot",
+    "website": "https://github.com/Aadhi000/Movies-Search-Bot-MW",
+    "repository": "https://github.com/Aadhi000/Movies-Search-Bot-MW",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -49,7 +50,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm [Media Search Bot](https://github.com/subinps/Media-Search-bot) or you can call me as Auto-Filter Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
+            "value": "**Hi, I'm [Media Search Bot](https://github.com/Aadhi000/Movies-Search-Bot-MW) or you can call me as Auto-Filter Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
             "required": false
         },
         "USE_CAPTION_FILTER": {
