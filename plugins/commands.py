@@ -65,8 +65,7 @@ async def start(bot, cmd):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('♻️ SΞARCH HΞRΞ ♻️', switch_inline_query_current_chat=''),
+                    [                
                         InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5')
                     ]
                     ]
