@@ -30,14 +30,11 @@ async def start(bot, cmd):
                     text="**Please Join My Updates Channel to use this Bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [
-                                InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)
-                            ],
                             [ 
-                              InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)                           
+                              InlineKeyboardButton("♥️ 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url=invite_link.invite_link)                           
                             ],
                             [
-                                InlineKeyboardButton("♻️ ϮᏒY ΛGΛIИ ♻️", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("♻️ 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 ♻️", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -69,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [                
-                        InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/MWUpdatez')
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -88,7 +85,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)
+                        InlineKeyboardButton("♥️ 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -101,11 +98,14 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♥️ CHAИИΞL ♥️", url="https://t.me/MWUpdatez"),
-                        InlineKeyboardButton("⚡ ΛBOUT ⚡", callback_data="about")
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
                     ],
                     [
-                        InlineKeyboardButton("♻️ SΞARCH HΞRΞ ♻️", switch_inline_query_current_chat='')
+                        InlineKeyboardButton("♥️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url="https://t.me/MWUpdatez"),
+                        InlineKeyboardButton("⚡ 𝙰𝙱𝙾𝚄𝚃 ⚡", callback_data="about")
+                    ],
+                    [
+                        InlineKeyboardButton("♻️ 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 ♻️", switch_inline_query_current_chat='')
                     ]
                 ]
             )
@@ -145,7 +145,7 @@ async def channel_info(bot, message):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Hacking....🙈", quote=True)
+    msg = await message.reply("𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙵𝙸𝙻𝙴𝚂....🙈", quote=True)
     try:
         total = await Media.count_documents()
         await msg.edit(f'📁 Saved files: {total}')
@@ -166,14 +166,16 @@ async def log_file(bot, message):
 @Client.on_message(filters.command('start'))
 async def bot_info(bot, message):
     buttons = [
-        [
-            InlineKeyboardButton("♥️ CHAИИΞL ♥️", url="https://t.me/MWUpdatez"),
-            InlineKeyboardButton("⚡ ΛBOUT ⚡", callback_data="about")
-        ],
-        [
-            InlineKeyboardButton("♻️ SΞARCH HΞRΞ ♻️", switch_inline_query_current_chat='')
-        ]
-        ]
+                    [
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+                    ],
+                    [
+                        InlineKeyboardButton("♥️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url="https://t.me/MWUpdatez"),
+                        InlineKeyboardButton("⚡ 𝙰𝙱𝙾𝚄𝚃 ⚡", callback_data="about")
+                    ],
+                    [
+                        InlineKeyboardButton("♻️ 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 ♻️", switch_inline_query_current_chat='')
+                    ]
     await message.reply(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>ꪖꪖᦔꫝỉ </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
         
 
@@ -182,7 +184,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Hacking....🙈", quote=True)
+        msg = await message.reply("𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙵𝙸𝙻𝙴𝚂....🙈", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
@@ -208,7 +210,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/MWUpdatez')          
+            InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')          
         ]
         ]
     await message.reply(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>ꪖꪖᦔꫝỉ </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -217,6 +219,6 @@ async def bot_info(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/MWUpdatez')          
+            InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')          
         ]
         ]
