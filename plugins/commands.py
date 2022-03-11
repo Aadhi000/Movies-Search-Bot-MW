@@ -31,7 +31,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [ 
-                              InlineKeyboardButton("♥️ 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url=invite_link.invite_link)                           
+                                InlineKeyboardButton("♥️ 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url=invite_link.invite_link)                           
                             ],
                             [
                                 InlineKeyboardButton("♻️ 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 ♻️", callback_data=f"checksub#{file_id}")
@@ -166,6 +166,9 @@ async def log_file(bot, message):
 @Client.on_message(filters.command('start'))
 async def bot_info(bot, message):
     buttons = [
+        [
+            InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+        ],
         [
             InlineKeyboardButton("♥️ CHAИИΞL ♥️", url="https://t.me/MWUpdatez"),
             InlineKeyboardButton("⚡ ΛBOUT ⚡", callback_data="about")
