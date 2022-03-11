@@ -309,11 +309,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                [                
-                    InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')              
-                ]
-                ]
-                
+                    [                
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')              
+                    ]
+                    ]              
                 await query.answer()
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
@@ -340,11 +339,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{title}"
                 buttons = [
-                [                
-                    InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')                ]
-                ]
-                ]
-
+                    [                
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')              
+                    ]
+                    ]
                 await query.answer()
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
