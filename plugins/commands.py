@@ -166,16 +166,16 @@ async def log_file(bot, message):
 @Client.on_message(filters.command('start'))
 async def bot_info(bot, message):
     buttons = [
-                    [
-                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
-                    ],
-                    [
-                        InlineKeyboardButton("♥️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url="https://t.me/MWUpdatez"),
-                        InlineKeyboardButton("⚡ 𝙰𝙱𝙾𝚄𝚃 ⚡", callback_data="about")
-                    ],
-                    [
-                        InlineKeyboardButton("♻️ 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 ♻️", switch_inline_query_current_chat='')
-                    ]
+         [
+             InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+         ],
+         [
+             InlineKeyboardButton("♥️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url="https://t.me/MWUpdatez"),
+             InlineKeyboardButton("⚡ 𝙰𝙱𝙾𝚄𝚃 ⚡", callback_data="about") 
+         ],
+         [
+             InlineKeyboardButton("♻️ 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 ♻️", switch_inline_query_current_chat='')
+         ]
     await message.reply(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>ꪖꪖᦔꫝỉ </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
         
 
