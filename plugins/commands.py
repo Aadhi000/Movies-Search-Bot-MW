@@ -31,7 +31,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link
+                                InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)
                             ],
                             [ 
                               InlineKeyboardButton("♥️ JOIИ CHAИИΞL ♥️", url=invite_link.invite_link)                           
@@ -69,7 +69,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [                
-                        InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5')
+                        InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/MWUpdatez')
                     ]
                     ]
                 await bot.send_cached_media(
