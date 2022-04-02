@@ -291,12 +291,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
                 ],
                 [
-                    InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="back")
+                    InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="home")
                 ]
                 ]
             await query.message.edit(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>ꪖꪖᦔꫝỉ </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
-        elif query.data == "back":
+        elif query.data == "home":
             buttons = [
                 [
                     InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
@@ -330,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
                     ],
                     [
-                        InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="back")
+                        InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="home")
                     ]
                     ]              
                 await query.answer()
