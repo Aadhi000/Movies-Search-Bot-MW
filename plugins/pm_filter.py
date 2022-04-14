@@ -1,4 +1,4 @@
-#Kanged From @TroJanZheX
+
 from info import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS, BUTTON
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
@@ -328,9 +328,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
-                    ],
-                    [
-                        InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="home")
                     ]
                     ]              
                 await query.answer()
