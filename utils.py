@@ -74,11 +74,7 @@ async def broadcast_messages(user_id, message):
         return True, "Succes"
     except FloodWait as e:
         await asyncio.sleep(e.x)
-        return await broadcast_messages(user_id, message)
-    except InputUserDeactivated:
-        await db.delete_user(int(user_id))
-        logging.info(f"{user_id}-Removed from Database, since deleted account.")
-        return False, "Deleted"
+        return await broadcast_messages(user_id, message)    
     except UserIsBlocked:
         logging.info(f"{user_id} -Blocked the bot.")
         return False, "Blocked"
